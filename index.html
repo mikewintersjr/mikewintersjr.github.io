@@ -79,7 +79,11 @@ var STYLE_PREFIX = 'wsite';
 	})(window._W && _W.jQuery)
 //-->
 </script>
-		
+<script type="text/javascript">
+    function scroller(){
+        document.querySelector('portrait').scrollIntoView({ behavior: 'smooth' });
+    }
+</script>		
 		
 	</head>
 	<body class="header-page  wsite-page-index  full-width-on  wsite-theme-dark"><div class="body-wrap">
@@ -135,7 +139,7 @@ var STYLE_PREFIX = 'wsite';
 							<div id="banner-container">
 				<div class="wsite-section-elements">
 					<div id="portrait"></div>
-						<a href="#" onclick="window.scroll({ top: 2500, left: 0, behavior: 'smooth' });">Test</a>
+						<a href="javascript:void(0)" onclick="scroller();">Test</a>
 					<h2 class="wsite-content-title"><font size="7">Portrait Series - Jianrou Tang</font></h2>
 
 <div><div style="height:0px;overflow:hidden"></div>
