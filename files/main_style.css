@@ -5,7 +5,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  html { height: 100%; }
  body { font-family: 'Raleway', sans-serif; font-size: 15px; font-weight: 500; color: #777777; min-height: 100%; background: #292929; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
  .body-wrap { background-color: #232324; }
- .navFixed {position: fixed; top:35%; left:2%}
+ .navFixed {position:fixed; top:35%; left:2% }
  .bg-wrapper { background-color: #232324; }
  h2 { font-family: 'Lora', sans-serif; font-size: 1.7em; font-weight: normal; color: #ffffff; margin: 0 auto .3em; }
  div.paragraph, div.paragraph { line-height: 1.5; margin: 0 auto 1em; }
