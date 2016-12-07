@@ -5,7 +5,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  html { height: 100%; }
  body { font-family: 'Raleway', sans-serif; font-size: 15px; font-weight: 500; color: #777777; min-height: 100%; background: #292929; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
  .body-wrap { background-color: #232324; }
- #navFixed { top:235px; left:2%; z-index:99; }
+ .navFixed { top:235px; left:2%; z-index:99; }
  .bg-wrapper { background-color: #232324; }
  h2 { font-family: 'Lora', sans-serif; font-size: 1.7em; font-weight: normal; color: #ffffff; margin: 0 auto .3em; }
  div.paragraph, div.paragraph { line-height: 1.5; margin: 0 auto 1em; }
@@ -15,7 +15,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  #header { text-align: center; padding-top: 52px; padding-bottom: 25px; }
  .wsite-logo a { color: #ffffff; font-family: 'Raleway'; font-weight: 500; font-size: 36px; text-transform: uppercase; }
  .wsite-logo a:hover { color: #ffffff; }
- a { color: #ff9a22; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+ a { color: #828282; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
  a:hover { color: #ffffff; }
  .container, #footer-content { width: 960px; padding: 4em 1.6em; margin: 0 auto; box-sizing: border-box; }
  .wsite-form-container { margin-top: 0 !important; }
