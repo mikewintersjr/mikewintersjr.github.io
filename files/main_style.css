@@ -5,8 +5,8 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  html { height: 100%; }
  body { font-family: 'Raleway', sans-serif; font-size: 15px; font-weight: 500; color: #777777; min-height: 100%; background: #292929; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
  .body-wrap { background-color: #232324; }
- .navFixed { top:250px; left:2%; z-index:99; }
- .navFixed-scrolled { position:fixed; top:0 }
+ .navFixed { top:250px; left:2%; height:50px; width:100px; margin-bottom:-50; z-index:99; background-color: (0,0,0,0)}
+ .navFixed-scrolled { position:fixed; top:0; left:2% }
  .bg-wrapper { background-color: #232324; }
  h2 { font-family: 'Lora', sans-serif; font-size: 1.7em; font-weight: normal; color: #ffffff; margin: 0 auto .3em; }
  div.paragraph, div.paragraph { line-height: 1.5; margin: 0 auto 1em; }
