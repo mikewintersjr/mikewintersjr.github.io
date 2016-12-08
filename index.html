@@ -115,9 +115,7 @@ var STYLE_PREFIX = 'wsite';
 	jQuery(function($) {
 
     	var $sidebar   = $(".navFixed"), 
-        	$window    = $(window),
-			offset     = $sidebar.offset(),
-			topPadding = 15;
+        	$window    = $(window);
 
 		$window.scroll(function() {
         	if ($window.scrollTop() > 220) {
