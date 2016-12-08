@@ -5,9 +5,9 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  html { height: 100%; }
  body { font-family: 'Raleway', sans-serif; font-size: 15px; font-weight: 500; color: #777777; min-height: 100%; background: #292929; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
  .body-wrap { background-color: #232324; }
- .navFixed { left:2%; height:65px; z-index:150; padding-top:30px; padding-left:30px; background-color: #1c1c1d; font-family: 'Raleway', sans-serif; font-size: 20px; font-weight: 200 }
+ .navFixed { left:2%; height:70px; z-index:150; padding-top:30px; padding-left:30px; background-color: #1c1c1d; font-family: 'Raleway', sans-serif; font-size: 20px; font-weight: 200 }
  .navFixed-scrolled { position:fixed; top:0px; left:0%; }
- #videolink { letter-spacing:.5px }
+ #audiolink { letter-spacing:.5px }
  .scrollToTop { left:-100px }
  .bg-wrapper { background-color: #232324; }
  h2 { font-family: 'Lora', sans-serif; font-size: 1.7em; font-weight: normal; color: #ffffff; margin: 0 auto .3em; }
@@ -64,7 +64,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-header-section:before, .wsite-background:before { content: ''; position: absolute; left: 0; top: 0; width: 100%; min-height: 100%; height: inherit; background: rgba(0,0,0,0.1); z-index: 1; }
  .wsite-section-bg-color:before { display: none; }
  #banner { position: relative; width: 900px; height: 100%; margin: auto; display: table; table-layout: fixed; z-index: 3; }
- #banner-container { display: table-cell; vertical-align: middle; padding: 4em 1.6em; }
+ #banner-container { display: table-cell; vertical-align: middle; padding: -2em 1.6em; }
  .banner-wrap a { color: #cdcdcd; }
  .banner-wrap a:hover { text-decoration: underline; }
  .banner-wrap .wsite-button-inner, .wsite-editor .banner-wrap .wsite-button-inner { font-family: 'Raleway', sans-serif; text-transform: uppercase; font-size: 15px; }
