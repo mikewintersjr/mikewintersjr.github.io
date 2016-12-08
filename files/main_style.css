@@ -9,7 +9,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .navFixed-scrolled { position:fixed; top:0px; left:0%; }
  #videolink { letter-spacing:.5px }
  #audiolink { letter-spacing:.5px }
- #photolink { letter-spacing:.25px }
+ #photolink { letter-spacing:.3px }
  .scrollToTop { left:-100px }
  .bg-wrapper { background-color: #232324; }
  h2 { font-family: 'Lora', sans-serif; font-size: 1.7em; font-weight: normal; color: #ffffff; margin: 0 auto .3em; }
