@@ -93,7 +93,7 @@ var STYLE_PREFIX = 'wsite';
     }
 
 	jQuery(function($) {
-		$(".navFixed > ul > li > a").click(function(e) {
+		$(".navFixed > a").click(function(e) {
 			  // Prevent a page reload when a link is pressed
 			e.preventDefault();
 			  // Call the scroll function
@@ -120,7 +120,7 @@ var STYLE_PREFIX = 'wsite';
 			topPadding = 15;
 
 		$window.scroll(function() {
-        	if ($window.scrollTop() > 250) {
+        	if ($window.scrollTop() > 220) {
         	    $sidebar.addClass("navFixed-scrolled");
 			} else {
             	$sidebar.removeClass("navFixed-scrolled");
@@ -168,19 +168,12 @@ var STYLE_PREFIX = 'wsite';
 
 <div class="navFixed">
 		
-	<ul class="wsite-menu-default">
-		<li id="active" class="wsite-menu-item-wrap">
-			<a class="wsite-menu-item" id="videolink">Video</a>
-		</li>
-		
-		<li id="active" class="wsite-menu-item-wrap">
-			<a class="wsite-menu-item" id="audiolink">Audio</a>
-		</li>
-
-		<li id="active" class="wsite-menu-item-wrap">
-			<a class="wsite-menu-item" id="photolink">Photo</a>
-		</li>
-	</ul>
+	<a class="wsite-menu-item" id="videolink">Video</a>
+	</br>
+	<a class="wsite-menu-item" id="audiolink">Audio</a>
+	</br>
+	<a class="wsite-menu-item" id="photolink">Photo</a>
+	</br>
 </div>
 	
 				<div class="banner-wrap">
