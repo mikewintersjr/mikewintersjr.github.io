@@ -7,6 +7,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .body-wrap { background-color: #232324; }
  .navFixed { left:2%; height:70px; z-index:150; padding-top:0px; padding-left:30px; padding-bottom: 0px; background-color: #1c1c1d; font-family: 'Raleway', sans-serif; font-size: 20px; font-weight: 200; }
  .navFixed-scrolled { position:fixed; top:0px; left:0%; }
+ .navFixed-wrapper { height:70px; color:#1c1c1d; }
  #videolink { letter-spacing:.5px }
  #audiolink { letter-spacing:.5px }
  #photolink { letter-spacing:.3px }
