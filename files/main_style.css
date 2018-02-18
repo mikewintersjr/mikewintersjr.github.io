@@ -177,7 +177,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-menu { margin-left: 0; }
  #footer { padding: 0; }
  .footer-full { padding-bottom: 5em !important; }
- #header { padding: 0 10px; border-bottom: solid 1px #232324; height: 65px; box-sizing: border-box; display: table; width: 100%; position: fixed; top: 0; left: 0; background: #232324; z-index: 11; }
+ #header { padding: 0 10px; border-bottom: solid 1px #d0d0d0; height: 65px; box-sizing: border-box; display: table; width: 100%; position: fixed; top: 0; left: 0; background: #232324; z-index: 11; }
  body.wsite-native-mobile-editor #header, body.wsite-checkout-page #header { position: absolute; }
  .splash-page #header { padding-top: 0; }
  #sitename { margin: 0 60px; vertical-align: middle; display: table-cell; }
@@ -291,7 +291,7 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 
 /* BIRTHDAY ADDITIONS START HERE */
 
-#birthdayHeader { padding: 0 10px; border-bottom: solid 1px #d0d0d0; height: 40px; box-sizing: border-box; display: table; width: 100%; position: fixed; top: 0; left: 0; background: #232324; z-index: 11; padding-top: 25px; padding-bottom: 46px; }
+#birthdayHeader { padding: 0 10px; border-bottom: solid 1px #232324; height: 40px; box-sizing: border-box; display: table; width: 100%; position: fixed; top: 0; left: 0; background: #232324; z-index: 11; padding-top: 25px; padding-bottom: 46px; }
 #birthdayHeader { text-align: center; padding-top: 32px; padding-bottom: 0px; }
 #birthdayNavigation { padding-top: 90px; padding-bottom: 20px; width: 960px; margin: auto; text-align: center; text-transform: uppercase; overflow: hidden; font-family: 'Raleway', sans-serif; font-size: 13px; }
 #birthdayHeader { background: #232324; }
