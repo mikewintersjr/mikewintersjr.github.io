@@ -304,4 +304,30 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 #birthdayNavigation li { display: inline-block; }
 #birthdayNavigation li:hover, #birthdayNavigation li#active { background-color: #3f3f3f; color: #a3a3a3; }
 #birthdayNavigation a { color: inherit; }
-  
+ 
+/* QUIZZES */
+
+#quizzes { padding-bottom: 25px; }
+
+.quizButton { position: relative; width: 200px; height: 150px; background-color: #f90; border-radius: 8px; box-shadow: 0 5px 0 #bf6c07; }
+.quizButton:hover { background-color: #ffae00; }
+.quizButton:active { box-shadow: 0 2px 0 #bf6c07; -webkit-transform: translate(0, 3px); }
+
+.quizSpan {
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+#q1 { margin-top: 25px; margin-left: 125px; }
+#q2 { margin-top: -150px; margin-left: 350px; }
+#q3 { margin-top: -150px; margin-left: 575px; }
+#q4 { margin-top: 25px; margin-left: 125px; }
+#q5 { margin-top: -150px; margin-left: 350px; }
+#q6 { margin-top: -150px; margin-left: 575px; }
+#q7 { margin-top: 25px; margin-left: 125px; }
+#q8 { margin-top: -150px; margin-left: 350px; }
+#q9 { margin-top: -150px; margin-left: 575px; }
