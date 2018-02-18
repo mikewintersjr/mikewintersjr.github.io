@@ -292,13 +292,13 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 /* BIRTHDAY ADDITIONS START HERE */
 
 #birthdayHeader { padding: 0 10px; border-bottom: solid 1px #d0d0d0; height: 40px; box-sizing: border-box; display: table; width: 100%; position: fixed; top: 0; left: 0; background: #232324; z-index: 11; padding-top: 25px; padding-bottom: 46px; }
-#birthdayHeader { text-align: center; padding-top: 32px; padding-bottom: 45px; }
-#birthdayNavigation { padding-bottom: 20px; width: 960px; margin: auto; text-align: center; text-transform: uppercase; overflow: hidden; font-family: 'Raleway', sans-serif; font-size: 13px; }
+#birthdayHeader { text-align: center; padding-top: 32px; padding-bottom: 0px; }
+#birthdayNavigation { padding-top: 90px; padding-bottom: 20px; width: 960px; margin: auto; text-align: center; text-transform: uppercase; overflow: hidden; font-family: 'Raleway', sans-serif; font-size: 13px; }
 #birthdayHeader { background: #232324; }
 #birthdayNavigation ul { list-style-type: none; }
 #birthdayNavigation ul li { display: inline-block; }
 #birthdayNavigation a { display: inline-block; padding: 10px 14px; }
-#birthdayNavigation ul:before, #navigation ul:after { background-color: #373737; content: ""; display: inline-block; height: 1px; bottom: .1em; position: relative; vertical-align: middle; width: 50%; }
+#birthdayNavigation ul:before, #birthdayNavigation ul:after { background-color: #373737; content: ""; display: inline-block; height: 1px; bottom: .1em; position: relative; vertical-align: middle; width: 50%; }
 #birthdayNavigation ul:before { right: 29px; margin-left: -50%; }
 #birthdayNavigation ul:after { left: 29px; margin-right: -50%; }
 #birthdayNavigation li { display: inline-block; }
