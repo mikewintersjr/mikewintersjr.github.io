@@ -177,7 +177,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .wsite-menu { margin-left: 0; }
  #footer { padding: 0; }
  .footer-full { padding-bottom: 5em !important; }
- #header { padding: 0 10px; border-bottom: solid 1px #d0d0d0; height: 65px; box-sizing: border-box; display: table; width: 100%; position: fixed; top: 0; left: 0; background: #232324; z-index: 11; }
+ #header { padding: 0 10px; border-bottom: solid 1px #232324; height: 65px; box-sizing: border-box; display: table; width: 100%; position: fixed; top: 0; left: 0; background: #232324; z-index: 11; }
  body.wsite-native-mobile-editor #header, body.wsite-checkout-page #header { position: absolute; }
  .splash-page #header { padding-top: 0; }
  #sitename { margin: 0 60px; vertical-align: middle; display: table-cell; }
@@ -302,6 +302,6 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 #birthdayNavigation ul:before { right: 29px; margin-left: -50%; }
 #birthdayNavigation ul:after { left: 29px; margin-right: -50%; }
 #birthdayNavigation li { display: inline-block; }
-#birthdayNavigation li:hover, #navigation li#active { background-color: #3f3f3f; color: #a3a3a3; }
+#birthdayNavigation li:hover, #birthdayNavigation li#active { background-color: #3f3f3f; color: #a3a3a3; }
 #birthdayNavigation a { color: inherit; }
   
