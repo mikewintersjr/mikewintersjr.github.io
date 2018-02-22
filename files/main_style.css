@@ -315,11 +315,11 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 
 .quizSpan {
 
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
+	font-family: 'Abel', sans-serif;
+	font-size: 48px;
+	color: white;
+	position: 50%;
+	margin-top: 24px;
 }
 
 #q1 { margin-top: 25px; margin-left: 125px; }
