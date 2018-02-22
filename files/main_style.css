@@ -316,10 +316,9 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 .quizSpan {
 
 	font-family: 'Bree Serif', sans-serif;
-	font-size: 48px;
+	font-size: 84px;
 	color: white;
-	position: 50%;
-	margin-top: 24px;
+	line-height: 139px;
 }
 
 #q1 { margin-top: 25px; margin-left: 125px; }
