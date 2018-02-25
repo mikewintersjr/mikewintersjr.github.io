@@ -331,6 +331,6 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 #q8 { margin-top: -150px; margin-left: 350px; }
 #q9 { margin-top: -150px; margin-left: 575px; }
 
-#overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url("blur.png"); z-index: 100; }
+#overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url("../blur.png"); background-size: cover; z-index: 100; }
 .body-wrap { display: none; }
 
