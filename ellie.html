@@ -87,19 +87,33 @@ var STYLE_PREFIX = 'wsite';
 
 		var body-wrap = document.getElementsByClassName('body-wrap');
 
+		console.log(Cookies.get('auth'));
+
 		if (Cookies.get('auth') != 'true') {
 
-			 $('#myModall').modal({
+			 $('#login-modal').modal({
                         backdrop: 'static',
                         keyboard: false, 
                         show: true
                 }); 
 		}
+
+		else {
+
+			$('#login-modal').modal('hide');
+		}
 	}
 
 	function login() {
 
-		var user = document.getElementsById
+		var user = $('#user');
+		var pass = $('#pass');
+
+		if (user == 'agile' && pass == 'olive') {
+
+			Cookies.set('auth', 'true', 7);
+			checkAuth();
+		}
 	}
 
 </script>
