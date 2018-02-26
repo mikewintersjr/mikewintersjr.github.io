@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">		
 <link id="wsite-base-style" rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/sites.css?buildTime=1481066443" />
 <link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/old/fancybox.css?1481066443" />
 <link rel="stylesheet" type="text/css" href="//cdn2.editmysite.com/css/social-icons.css?buildtime=1481066443" media="screen,projection" />
@@ -52,7 +52,7 @@ var STYLE_PREFIX = 'wsite';
 //-->
 </script>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
-
+<script src="./js.cookie.js"></script>
 <script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
 <script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type='text/javascript' src='http://cdn2.editmysite.com/js/old/slideshow-jq.js?buildTime=1234'></script>
 <script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
@@ -83,56 +83,52 @@ var STYLE_PREFIX = 'wsite';
 
 <script>
 
-	function goToByScroll(id){
-		id = id.replace("link", "");
-		jQuery(function($) {
-			$('html,body').animate({
-            scrollTop: $("#"+id).offset().top},
-            'slow');
-		});
-    }
+	function checkAuthorization() {
 
-	jQuery(function($) {
-		$(".navFixed > a").click(function(e) {
-			  // Prevent a page reload when a link is pressed
-			e.preventDefault();
-			  // Call the scroll function
-			goToByScroll($(this).attr("id"));
-		});
+		var body-wrap = document.getElementsByClassName('body-wrap');
 
-});
+		if (Cookies.get('auth') == 'true') {
 
-	jQuery(function($) {
-		$(".scrollToTop").click(function(e) {
-			  // Prevent a page reload when a link is pressed
-			e.preventDefault();
-			  // Call the scroll function
-			goToByScroll("headerlink");
-		});
+			body-wrap.style.display = 'inherit';
+		}
 
-});
+		else {
 
-	jQuery(function($) {
+			body-wrap.style.display = 'none';
+		}
+	}
 
-    	var $sidebar   = $(".navFixed"), 
-        	$window    = $(window);
+	function login() {
 
-		$window.scroll(function() {
-        	if ($window.scrollTop() > 220) {
-        	    $sidebar.addClass("navFixed-scrolled");
-			} else {
-            	$sidebar.removeClass("navFixed-scrolled");
-        	}
-    	});
-    
-});
+		var user = document.getElementsById
+	}
 
 </script>
 
 	</head>
 	
-	<body class="header-page  wsite-page-index  full-width-on  wsite-theme-dark">
-		<div id="overlay">
+	<body class="header-page  wsite-page-index  full-width-on  wsite-theme-dark" onload="checkAuthorization();">
+
+<div class="modal fade">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 		<div class="body-wrap">
 		<div id="birthdayHeader">
 			<div class="nav-trigger hamburger">
@@ -210,7 +206,6 @@ var STYLE_PREFIX = 'wsite';
 			</div>
 
 		</div>
-	</div>
 
 <script language="javascript" src="files/theme/plugins.js"></script>
 <script language="javascript" src="files/theme/custom.js"></script>
@@ -218,5 +213,9 @@ var STYLE_PREFIX = 'wsite';
 
 
 	</div>	
+
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	</body>
 </html>
