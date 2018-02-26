@@ -87,14 +87,13 @@ var STYLE_PREFIX = 'wsite';
 
 		var body-wrap = document.getElementsByClassName('body-wrap');
 
-		if (Cookies.get('auth') == 'true') {
+		if (Cookies.get('auth') != 'true') {
 
-			body-wrap.style.display = 'inherit';
-		}
-
-		else {
-
-			body-wrap.style.display = 'none';
+			 $('#myModall').modal({
+                        backdrop: 'static',
+                        keyboard: false, 
+                        show: true
+                }); 
 		}
 	}
 
