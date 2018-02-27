@@ -92,6 +92,7 @@ var STYLE_PREFIX = 'wsite';
 
 		if (Cookies.get('auth') == "true") {
 
+			document.getElementsByClass('body-wrap')[0].style.display = "inherit";
 			$('#login-modal').modal('hide');
 		}
 
@@ -103,8 +104,6 @@ var STYLE_PREFIX = 'wsite';
                         show: true
             	}); 
 		}
-
-		document.getElementsByClass('body-wrap')[0].style.display = "inherit";
 	}
 
 </script>
@@ -150,7 +149,7 @@ var STYLE_PREFIX = 'wsite';
   </div>
 </div>
 
-		<div class="body-wrap">
+		<div class="body-wrap" style="display: none">
 		<!-- <div id="birthdayHeader">
 			<div class="nav-trigger hamburger">
 				<div class="open-btn">
