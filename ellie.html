@@ -111,10 +111,10 @@ var STYLE_PREFIX = 'wsite';
 <script type="text/javascript">
 	function login() {
 
-		var user = $('#user');
-		var pass = $('#pass');
+		var user = $('#user')[0].value;
+		var pass = $('#pass')[0].value;
 
-		if (user == 'agile' && pass == 'olive') {
+		if (user == "agile" && pass == "olive") {
 
 			Cookies.set('auth', 'true', 7);
 			checkAuth;
