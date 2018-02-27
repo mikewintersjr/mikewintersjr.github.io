@@ -86,13 +86,14 @@ var STYLE_PREFIX = 'wsite';
 
 	function checkAuth() {
 
-		document.getElementsByClassName('body-wrap')[0].style.display = "none";
+		$('.body-wrap')[0].style.display = "none";
 
 		console.log('HELLO TEST WORLD ' + Cookies.get('auth'));
 
 		if (Cookies.get('auth') == "true") {
 
-			document.getElementsByClassName('body-wrap')[0].style.display = "inherit";
+			$('.body-wrap')[0].style.display = "inherit";
+			$('#login-modal').modal();
 			$('#login-modal').modal('hide');
 		}
 
