@@ -86,7 +86,9 @@ var STYLE_PREFIX = 'wsite';
 
 	function checkAuth() {
 
-		console.log(Cookies.get('auth'));
+		document.getElementsByClass('body-wrap')[0].style.display = "none";
+
+		console.log('HELLO TEST WORLD ' + Cookies.get('auth'));
 
 		if (Cookies.get('auth') == "true") {
 
@@ -101,6 +103,8 @@ var STYLE_PREFIX = 'wsite';
                         show: true
             	}); 
 		}
+
+		document.getElementsByClass('body-wrap')[0].style.display = "inherit";
 	}
 
 </script>
@@ -134,17 +138,13 @@ var STYLE_PREFIX = 'wsite';
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Log In</h5>
-        <button type="button" class="close" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
       </div>
       <div class="modal-body">
         <input id="user" type="text" placeholder="Username">
 		<input id="pass" type="password" placeholder="Password">
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Save changes</button>
-        <button type="button" class="btn btn-secondary">Close</button>
+        <button type="button" class="btn btn-primary" onclick="login()">Login</button>
       </div>
     </div>
   </div>
