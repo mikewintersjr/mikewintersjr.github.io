@@ -331,6 +331,24 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 #q8 { margin-top: -150px; margin-left: 350px; }
 #q9 { margin-top: -150px; margin-left: 575px; }
 
+
+input {
+
+    position: relative;
+    width: 45%;
+    height: 40px;
+    text-align: center;
+
+    border-color: #aeaeae;
+    border-width: 1px;
+    border-radius: 4px;
+    outline: none;
+}
+
+#user { left: 2%; }
+#pass { left: 6%; }
+
+
 .modal {
    background-image: url("./blur.png");
    background-size: cover;
