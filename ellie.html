@@ -86,13 +86,13 @@ var STYLE_PREFIX = 'wsite';
 
 	function checkAuth() {
 
-		document.getElementsByClass('body-wrap')[0].style.display = "none";
+		document.getElementsByClassName('body-wrap')[0].style.display = "none";
 
 		console.log('HELLO TEST WORLD ' + Cookies.get('auth'));
 
 		if (Cookies.get('auth') == "true") {
 
-			document.getElementsByClass('body-wrap')[0].style.display = "inherit";
+			document.getElementsByClassName('body-wrap')[0].style.display = "inherit";
 			$('#login-modal').modal('hide');
 		}
 
