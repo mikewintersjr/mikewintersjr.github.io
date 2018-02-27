@@ -3,7 +3,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  a img { border: 0; }
  a { text-decoration: none; }
  html { height: 100%; }
- body { font-family: 'Raleway', sans-serif; font-size: 15px; font-weight: 500; color: #777777; min-height: 100%; background: #292929; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+ body { font-family: 'Raleway', sans-serif; font-size: 15px; font-weight: 500; color: #777777; min-height: 100%; background: #1c1c1d; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
  .body-wrap { background-color: #232324; }
  .navFixed { left:2%; height:70px; z-index:150; padding-top:0px; padding-left:30px; padding-bottom: 0px; background-color: #1c1c1d; font-family: 'Raleway', sans-serif; font-size: 20px; font-weight: 200; }
  .navFixed-scrolled { position:fixed; top:0px; left:0%; }
@@ -330,10 +330,6 @@ div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; 
 #q7 { margin-top: 25px; margin-left: 125px; }
 #q8 { margin-top: -150px; margin-left: 350px; }
 #q9 { margin-top: -150px; margin-left: 575px; }
-
-/*#overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url("./blur.png"); background-size: cover; z-index: 100; }*/
-.body-wrap { display: inherit; }
-/*#login { position: fixed; top:25%; left: 25%; padding: 50px; border-radius: 10px; background-color: white; }*/
 
 .modal {
    background-image: url("./blur.png");
