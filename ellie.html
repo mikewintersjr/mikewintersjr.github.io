@@ -86,11 +86,12 @@ var STYLE_PREFIX = 'wsite';
 
 	function checkAuth() {
 
+		console.log("running checkAuth() now...");
+		
 		$('.body-wrap')[0].style.display = "none";
-
-		console.log('HELLO TEST WORLD ' + Cookies.get('auth'));
-
-		if (Cookies.get('auth') == "true") {
+		
+		var authCookie = Cookies.get('auth');
+		if (authCookie == "true") {
 
 			$('.body-wrap')[0].style.display = "inherit";
 			$('#login-modal').modal();
@@ -119,11 +120,6 @@ var STYLE_PREFIX = 'wsite';
 
 			Cookies.set('auth', 'true', 7);
 			checkAuth();
-		}
-
-		else {
-
-			console.log("INCORRECT");
 		}
 	}
 
